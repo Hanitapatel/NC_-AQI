@@ -20,9 +20,34 @@ Bootcamp Team4 Final project
 * Does location have an effect on AQI?
 
 ### Technologies Used
-
+* Analyzing/Cleaning data
+  * Jupyter notebook
+  * Pandas 
+  * Python
+  * Google Colab
+  * PySpark 
+* Database 
+  * Housed in Amazon Web Services (AWS)
+  * Postgres/SQL
+* Machine Learning Model
+  * Scikit-learn
+  * Imbalanced-learn 
+* Dashboard 
+  * Tableau 
 
 ### Database Storage 
-
+* An ERD to show the relationships between the data will be made and tables will be created in SQL 
+* The ERD of the data can be seen [here](https://geisteam4-project.s3.amazonaws.com/Database_ERD.png)
+* The database will be stored in Amazon Web Services (AWS) and the csv file containing the data can be found in an S3 bucket 
 
 ### Machine Learning
+* Location, population, time of year to get AQI
+* Linear regression or neural network 
+  * Linear- on year by year basis 
+* Will be testing multiple machine learning models to compare classification reports 
+
+### Dashboard 
+* A dashboard to display the findings of the analysis  will be created using Tableau 
+
+### Communication Protocols 
+* Communication between group members has primarily been through the team Slack channel and zoom meetings throughout the week 
