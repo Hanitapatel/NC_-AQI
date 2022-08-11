@@ -3,7 +3,7 @@ Bootcamp Team4 Final project
 
 ### Chosen Topic
 * Using various tools, we are looking to predict Air Quality in regions across North Carolina on a day to day basis to help populations with respiratory illnesses determine if it is safe for them to be outside. 
-* Build a model that can, based on previous patterns and data, determine if the air quality is safe, for various populations 
+* Build a model that can, based on previous patterns and data, determine if the air quality is safe, for populations experiencing a respiratory illness  
 
 ### Why North Carolina AQI?
 * Our goal is to help people with respiratory illnesses determine if it is safe for them to go outside from the safety of their home and with the ability at their fingertips 
