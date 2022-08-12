@@ -3,7 +3,7 @@ Bootcamp Team4 Final project
 
 ## Communication Protocols
     - Slack channel
-    - Zoom meeting during the class time
+    - Zoom meeting during and outside of the class time
     - Git Hub
     
 ## GitHub
