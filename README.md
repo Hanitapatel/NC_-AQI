@@ -38,7 +38,7 @@ Bootcamp Team4 Final project
 
 ### Database Storage 
 * An ERD to show the relationships between the data will be made and tables will be created in SQL 
-* The ERD of the data can be seen [here](https://geisteam4-project.s3.amazonaws.com/Database_ERD.png)
+* The ERD of the data can be seen [here](https://github.com/Hanitapatel/Team4-FinalProject/blob/tgeis_database/Database_ERD%20Revised.png)
 * The database will be stored in Amazon Web Services (AWS) and the csv file containing the data can be found in an S3 bucket 
 
 ### Machine Learning
