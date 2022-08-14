@@ -50,5 +50,10 @@ Bootcamp Team4 Final project
 ### Dashboard 
 * A dashboard to display the findings of the analysis  will be created using Tableau 
 
-### Communication Protocols 
-* Communication between group members has primarily been through the team Slack channel and zoom meetings throughout the week 
+## Communication Protocols
+    - Slack channel
+    - Zoom meeting during and outside of the class time
+    - Git Hub
+    
+## GitHub
+   We have a main branch and one branch per team member. Main branch includes README.
