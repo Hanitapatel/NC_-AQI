@@ -46,6 +46,12 @@ Bootcamp Team4 Final project
 * Linear regression or neural network 
   * Linear- on year by year basis 
 * Will be testing multiple machine learning models to compare classification reports 
+* Aim to answer the questions:
+   * How does it work?
+   * Why this specific model?
+   * What is the model's accuracy?
+   * If there are statistics involved, what stats are being included in analysis and why?
+   * If no statistics are involved, what would you include if you had more time?
 
 ### Dashboard 
 * A dashboard to display the findings of the analysis  will be created using Tableau 
