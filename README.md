@@ -53,6 +53,26 @@ Bootcamp Team4 Final project
    * If there are statistics involved, what stats are being included in analysis and why?
    * If no statistics are involved, what would you include if you had more time?
 
+### Machine Learning
+* To begin the machine learning model process we connected to the database and pulled the data to use in the model from the tables in PgAdmin. The columns that we chose are the columns that we felt would have the greatest impact on predicting AQI values 
+   * Columns in the dataframe to use in the machine learning model include: year, month, AQI, latitude, longitude, population, and density 
+* For the model we chose to use a Deep Neural Network with two layers 
+   * We have chosen this model because it is able to recognize patterns in our data and provide an AQI category based on the previously input data
+* The X and y data were set by using the columns from the Machine Learning dataframe 
+   * The y values being predicted are the category the AQI values fall into 
+   * The X values are all of the columns in the dataframe except for the AQI category column
+* We then split the data into the training and testing sets using the train_test_split method and a MinMaxScaler was used to scale the input data 
+* After running the original model with modifications to the number of layers and the number of nodes in each layer, the loss still would not decrease and the accuracy was not increasing. To combat this we decided to try to run the model to predict the category that the AQI would fall into as opposed to predicting the AQI directly
+* To do this, we categorized AQI by:
+   * 1 = Good, AQI: 0-50
+   * 2 = Moderate, AQI: 51-100
+   * 3 = Unhealthy for Sensitive Groups, AQI:101-150
+   * 4 = Unhealthy, AQI:151-200
+   * 5 = Very Unhealthy, AQI:201-300
+   * 6 = Hazardous, AQI:301+
+
+
+
 ### Dashboard 
 * A dashboard to display the findings of the analysis  will be created using Tableau 
 
