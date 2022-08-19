@@ -41,14 +41,32 @@ Bootcamp Team4 Final project
 * The ERD of the data can be seen [here](https://github.com/Hanitapatel/Team4-FinalProject/blob/tgeis_database/Database_ERD%20Revised.png)
 * The database will be stored in Amazon Web Services (AWS) and the csv file containing the data can be found in an S3 bucket 
 
+
 ### Machine Learning
-* Location, population, time of year to get AQI category
-* Linear regression or neural network 
-  * Linear- on year by year basis 
-* Will be testing multiple machine learning models to compare classification reports 
+
+* To begin the machine learning model process we connected to the database and pulled the data to use in the model from the tables in PgAdmin. The columns that we chose are the columns that we felt would have the greatest impact on predicting AQI values 
+   * Columns in the dataframe to use in the machine learning model include: year, month, AQI, latitude, longitude, population, and density 
+* For the model we chose to use a Deep Neural Network with two layers 
+   * We have chosen this model because it is able to recognize patterns in our data and provide an AQI category based on the previously input data
+* The X and y data were set by using the columns from the Machine Learning dataframe 
+   * The y values being predicted are the category the AQI values fall into 
+   * The X values are all of the columns in the dataframe except for the AQI category column
+* We then split the data into the training and testing sets using the train_test_split method and a MinMaxScaler was used to scale the input data 
+* After running the original model with modifications to the number of layers and the number of nodes in each layer, the loss still would not decrease and the accuracy was not increasing. To combat this we decided to try to run the model to predict the category that the AQI would fall into as opposed to predicting the AQI directly
+* To do this, we categorized AQI by:
+   * 1 = Good, AQI: 0-50
+   * 2 = Moderate, AQI: 51-100
+   * 3 = Unhealthy for Sensitive Groups, AQI:101-150
+   * 4 = Unhealthy, AQI:151-200
+   * 5 = Very Unhealthy, AQI:201-300
+   * 6 = Hazardous, AQI:301+
+* When the machine learning model was predicting the category instead of the AQI, the loss of the model decreased to 0.0180 and the accuracy increased to 64%
+* If we had more time to complete this project, we would like to look at the statistical breakdown of the effect that various air pollutants have on AQI per region in North Carolina. 
+
+
 
 ### Dashboard 
-* A dashboard to display the findings of the analysis  will be created using Tableau 
+* A dashboard to display the findings of the analysis will be created using Tableau 
 
 ## Communication Protocols
     - Slack channel
