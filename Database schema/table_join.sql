@@ -15,5 +15,6 @@ LEFT JOIN site_reporting_table AS site
 ON aq._c0 = site._c0
 LEFT JOIN population_table AS pop
 ON aq._c0 = pop._c0
+ORDER BY _c0;
 
 
