@@ -42,7 +42,7 @@ Bootcamp Team4 Final project
 * The database will be stored in Amazon Web Services (AWS) and the csv file containing the data can be found in an S3 bucket 
 
 ### Machine Learning
-* Location, population, time of year to get AQI
+* Location, population, time of year to get AQI category
 * Linear regression or neural network 
   * Linear- on year by year basis 
 * Will be testing multiple machine learning models to compare classification reports 
