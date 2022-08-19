@@ -38,13 +38,14 @@ Bootcamp Team4 Final project
 
 ### Database Storage 
 * An ERD to show the relationships between the data will be made and tables will be created in SQL 
-* The ERD of the data can be seen [here](https://github.com/Hanitapatel/Team4-FinalProject/blob/tgeis_database/Database_ERD%20Revised.png)
-* The database will be stored in Amazon Web Services (AWS) and the csv file containing the data can be found in an S3 bucket 
+* The ERD of the data can be seen [here](https://github.com/Hanitapatel/Team4-FinalProject/blob/main/ERD/Database_ERD_Final.png)
+* The database will be stored in Amazon Web Services (AWS) and the csv file containing the data can be found in an S3 bucket
+* An SQL schema will be used in pgadmin to join the popualtion_table and site_reporting_teble together
 
 
 ### Machine Learning
 
-* To begin the machine learning model process we connected to the database and pulled the data to use in the model from the tables in PgAdmin. The columns that we chose are the columns that we felt would have the greatest impact on predicting AQI values 
+* To begin the machine learning model process we connected to the database from python using psycopg2 and pulled the data to use in the model from the tables in PgAdmin. The columns that we chose are the columns that we felt would have the greatest impact on predicting AQI values 
    * Columns in the dataframe to use in the machine learning model include: year, month, AQI, latitude, longitude, population, and density 
 * For the model we chose to use a Deep Neural Network with two layers 
    * We have chosen this model because it is able to recognize patterns in our data and provide an AQI category based on the previously input data
