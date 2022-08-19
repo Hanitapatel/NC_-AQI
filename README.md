@@ -41,17 +41,6 @@ Bootcamp Team4 Final project
 * The ERD of the data can be seen [here](https://github.com/Hanitapatel/Team4-FinalProject/blob/tgeis_database/Database_ERD%20Revised.png)
 * The database will be stored in Amazon Web Services (AWS) and the csv file containing the data can be found in an S3 bucket 
 
-### Machine Learning
-* Location, population, time of year to get AQI
-* Linear regression or neural network 
-  * Linear- on year by year basis 
-* Will be testing multiple machine learning models to compare classification reports 
-* Aim to answer the questions:
-   * How does it work?
-   * Why this specific model?
-   * What is the model's accuracy?
-   * If there are statistics involved, what stats are being included in analysis and why?
-   * If no statistics are involved, what would you include if you had more time?
 
 ### Machine Learning
 * To begin the machine learning model process we connected to the database and pulled the data to use in the model from the tables in PgAdmin. The columns that we chose are the columns that we felt would have the greatest impact on predicting AQI values 
