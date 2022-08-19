@@ -70,7 +70,7 @@ Bootcamp Team4 Final project
    * 4 = Unhealthy, AQI:151-200
    * 5 = Very Unhealthy, AQI:201-300
    * 6 = Hazardous, AQI:301+
-* When the machine learning model was predicting the category instead of the AQI, the loss of the model decreased to 0.0125 and the accuracy increased to 64%
+* When the machine learning model was predicting the category instead of the AQI, the loss of the model decreased to 0.0180 and the accuracy increased to 64%
 
 
 ### Dashboard 
