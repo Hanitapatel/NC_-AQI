@@ -71,6 +71,7 @@ Bootcamp Team4 Final project
    * 5 = Very Unhealthy, AQI:201-300
    * 6 = Hazardous, AQI:301+
 * When the machine learning model was predicting the category instead of the AQI, the loss of the model decreased to 0.0180 and the accuracy increased to 64%
+* If we had more time to complete this project, we would like to look at the statistical breakdown of the effect that various air pollutants have on AQI per region in North Carolina. 
 
 
 ### Dashboard 
