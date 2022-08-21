@@ -68,14 +68,15 @@ Bootcamp Team4 Final project
 
 ### Dashboard 
 * A dashboard to display the findings of the analysis will be created using Tableau 
+  Tableau stroy can be viewed [here](https://public.tableau.com/app/profile/hanita6433)
 
 ### Presentation
 Google Slide Presentation can be viewed [here](https://docs.google.com/presentation/d/1nM4eEBQu5QLMny_0g068TraFPewo3p2E-1CmxfTic5c/edit#slide=id.p)
 
 ## Communication Protocols
-    - Slack channel
-    - Zoom meeting during and outside of the class time
-    - Git Hub
+* Slack channel
+* Zoom meeting during and outside of the class time
+* Git Hub
     
 ## GitHub
    We have a main branch and one branch per team member. Main branch includes README.
