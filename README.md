@@ -1,5 +1,6 @@
-# Team4-FinalProject
-Bootcamp Team4 Final project
+# North Carolina Air Quality Index (AQI)
+By Hanita Patel, Spencer Pope, Tammy Geis, and Angela Arce
+
 
 ### Chosen Topic
 * Using various tools, we are looking to predict Air Quality in regions across North Carolina on a day to day basis to help populations with respiratory illnesses determine if it is safe for them to be outside. 
