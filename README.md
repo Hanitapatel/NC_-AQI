@@ -78,4 +78,4 @@ Google Slide Presentation can be viewed [here](https://docs.google.com/presentat
     - Git Hub
     
 ## GitHub
-   We have a main branch and one branch per team member. Main branch includes README.
+   We have a main branch and one branch per team member. Main branch includes README.  
