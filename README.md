@@ -56,7 +56,7 @@ By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
    * The X values are all of the columns in the dataframe except for the AQI category column
 * We then split the data into the training and testing sets using the train_test_split method and a MinMaxScaler was used to scale the input data 
 * After running the original model, predicting AQI value, with modifications to the number of layers and the number of nodes in each layer, the loss still would not decrease and the accuracy was not increasing. To combat this we decided to try to run the model to predict the category that the AQI would fall into as opposed to predicting the AQI directly
-* To do this, we categorized AQI by:
+* To do this, we categorized AQI by [EPA standards] (https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf):
    * 1 = Good, AQI: 0-50
    * 2 = Moderate, AQI: 51-100
    * 3 = Unhealthy for Sensitive Groups, AQI:101-150
@@ -66,17 +66,11 @@ By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 * When the machine learning model was predicting the AQI category instead of the AQI value, the loss of the model decreased to 0.0180 and the accuracy increased to 64%
 * If we had more time to complete this project, we would like to look at the statistical breakdown of the effect that various air pollutants have on AQI per region in North Carolina. 
 
-
 ### Dashboard 
 * A dashboard to display the findings of the analysis will be created using Tableau 
 
 ### Presentation
 Google Slide Presentation can be viewed [here](https://docs.google.com/presentation/d/1nM4eEBQu5QLMny_0g068TraFPewo3p2E-1CmxfTic5c/edit#slide=id.p)
-
-## Communication Protocols
-    - Slack channel
-    - Zoom meeting during and outside of the class time
-    - Git Hub
     
 ## GitHub
    We have a main branch and one branch per team member. Main branch includes README.  
