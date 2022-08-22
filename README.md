@@ -1,4 +1,6 @@
 # North Carolina Air Quality Index (AQI)
+Bootcamp Team4 Final project
+=======
 By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 
 
@@ -68,6 +70,8 @@ By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 
 ### Dashboard 
 * A dashboard to display the findings of the analysis will be created using Tableau 
+ 
+  [Tableau Public Visualization](https://public.tableau.com/app/profile/hanita6433)
 
 ### Presentation
 Google Slide Presentation can be viewed [here](https://docs.google.com/presentation/d/1nM4eEBQu5QLMny_0g068TraFPewo3p2E-1CmxfTic5c/edit#slide=id.p)
