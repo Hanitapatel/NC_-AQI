@@ -1,5 +1,5 @@
 # North Carolina Air Quality Index (AQI)
-By Hanita Patel, Spencer Pope, Tammy Geis, and Angela Arce
+By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 
 
 ### Chosen Topic
