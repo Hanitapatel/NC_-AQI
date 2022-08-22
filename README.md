@@ -1,4 +1,4 @@
-# Team4-FinalProject
+# North Carolina Air Quality Index (AQI)
 Bootcamp Team4 Final project
 
 ### Chosen Topic
