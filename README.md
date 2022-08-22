@@ -42,6 +42,7 @@ By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 * The ERD of the data can be seen [here](https://github.com/Hanitapatel/Team4-FinalProject/blob/main/ERD/Database_ERD_Final.png)
 * The database will be stored in Amazon Web Services (AWS) and the CSV file containing the data can be found in an S3 bucket
 * An SQL schema will be used in pgadmin to join the popualtion_table and site_reporting_table together
+* The [Data Updater](https://github.com/Hanitapatel/Team4-FinalProject/blob/2baa263ff03a057e32cbc60742f153c530c23634/database%20update/data_updater.ipynb) can be used to update the dataframes from PGAdmin or a CSV with data from the EPA.
 
 
 ### Machine Learning
