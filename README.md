@@ -58,7 +58,7 @@ By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
    * The X values are all of the columns in the dataframe except for the AQI category column
 * We then split the data into the training and testing sets using the train_test_split method and a MinMaxScaler was used to scale the input data 
 * After running the original model, predicting AQI value, with modifications to the number of layers and the number of nodes in each layer, the loss still would not decrease and the accuracy was not increasing. To combat this we decided to try to run the model to predict the category that the AQI would fall into as opposed to predicting the AQI directly
-* To do this, we categorized AQI by [EPA standards] (https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf):
+* To do this, we categorized AQI by [EPA standards](https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf):
    * 1 = Good, AQI: 0-50
    * 2 = Moderate, AQI: 51-100
    * 3 = Unhealthy for Sensitive Groups, AQI:101-150
@@ -71,7 +71,7 @@ By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 ### Dashboard 
 * A dashboard to display the findings of the analysis will be created using Tableau 
  
-  [Tableau Public Visualization](https://public.tableau.com/app/profile/hanita6433)
+  [Tableau Public Visualization](https://public.tableau.com/app/profile/hanita6433/viz/Team4NCAQIPrediction/Team4NCAQIPrediction#1)
 
 ### Presentation
 Google Slide Presentation can be viewed [here](https://docs.google.com/presentation/d/1nM4eEBQu5QLMny_0g068TraFPewo3p2E-1CmxfTic5c/edit#slide=id.p)
