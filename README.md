@@ -1,6 +1,5 @@
 # North Carolina Air Quality Index (AQI)
-Bootcamp Team4 Final project
-=======
+
 By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 
 
