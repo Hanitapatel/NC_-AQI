@@ -69,7 +69,7 @@ By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 * If we had more time to complete this project, we would like to look at the statistical breakdown of the effect that various air pollutants have on AQI per region in North Carolina. 
 
 ### Dashboard 
-* A dashboard to display the findings of the analysis will be created using Tableau
+* A dashboard to display the findings of the analysis will be created using Tableau.
 * [Tableau Public Visualization](https://public.tableau.com/app/profile/hanita6433/viz/Team4NCAQIPrediction/Team4NCAQIPrediction#1)
 
 ### Presentation
