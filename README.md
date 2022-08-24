@@ -1,11 +1,10 @@
 # North Carolina Air Quality Index (AQI)
-Bootcamp Team4 Final project
-=======
+
 By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 
 
 ### Chosen Topic
-* Using various tools, we are looking to predict Air Quality in regions across North Carolina on a day to day basis to help populations with respiratory illnesses determine if it is safe for them to be outside. 
+* Using various tools, such as a machine learning model and data visualizations, we are looking to predict Air Quality in regions across North Carolina on a day to day basis to help populations with respiratory illnesses determine if it is safe for them to be outside. 
 * Build a model that can, based on previous patterns and data, determine if the air quality is safe for populations experiencing a respiratory illness  
 
 ### Why North Carolina AQI?
@@ -57,7 +56,8 @@ By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
    * The y values being predicted are the category the AQI values fall into 
    * The X values are all of the columns in the dataframe except for the AQI category column
 * We then split the data into the training and testing sets using the train_test_split method and a MinMaxScaler was used to scale the input data 
-* After running the original model, predicting AQI value, with modifications to the number of layers and the number of nodes in each layer, the loss still would not decrease and the accuracy was not increasing. To combat this we decided to try to run the model to predict the category that the AQI would fall into as opposed to predicting the AQI directly
+* After running the original model, predicting AQI value, with modifications to the number of layers and the number of nodes in each layer, the loss still would not decrease and the accuracy was not increasing. 
+* To combat this we decided to run the model to predict the category that the AQI would fall into as opposed to predicting the AQI directly
 * To do this, we categorized AQI by [EPA standards](https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf):
    * 1 = Good, AQI: 0-50
    * 2 = Moderate, AQI: 51-100
@@ -69,7 +69,7 @@ By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 * If we had more time to complete this project, we would like to look at the statistical breakdown of the effect that various air pollutants have on AQI per region in North Carolina. 
 
 ### Dashboard 
-* A dashboard to display the findings of the analysis will be created using Tableau 
+* A dashboard to display the findings of the analysis was created using Tableau 
  
   [Tableau Public Visualization](https://public.tableau.com/app/profile/hanita6433/viz/Team4NCAQIPrediction/Team4NCAQIPrediction#1)
 
