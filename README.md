@@ -4,7 +4,7 @@ By Spencer Pope, Hanita Patel, Tammy Geis, and Angela Arce
 
 
 ### Chosen Topic
-* Using various tools, we are looking to predict Air Quality in regions across North Carolina on a day to day basis to help populations with respiratory illnesses determine if it is safe for them to be outside. 
+* Using various tools, such as a machine learning model and data visualizations, we are looking to predict Air Quality in regions across North Carolina on a day to day basis to help populations with respiratory illnesses determine if it is safe for them to be outside. 
 * Build a model that can, based on previous patterns and data, determine if the air quality is safe for populations experiencing a respiratory illness  
 
 ### Why North Carolina AQI?
